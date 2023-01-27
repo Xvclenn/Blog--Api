@@ -1,0 +1,28 @@
+GET  http://localhost:8000/blogs/a1305ed8-4f0a-4c59-8733-f94f74965489 HTTP/1.1
+content-type: application/json
+
+
+###
+
+DELETE  http://localhost:8000/blogs/0d34ece1-4ce7-4336-b792-1eaab3f2b9b1 HTTP/1.1
+content-type: application/json
+
+
+
+###
+
+POST http://localhost:8000/blogs HTTP/1.1
+content-type: application/json
+
+{
+    "title": "kajvckue"
+}
+
+###
+
+PUT  http://localhost:8000/blogs/7978e88e-4b64-4b16-84d1-59dd8d10b5a9 HTTP/1.1
+content-type: application/json
+
+{
+    "title": "Bloggg"
+}
