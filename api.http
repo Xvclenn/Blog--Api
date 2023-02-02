@@ -1,10 +1,10 @@
-GET  http://localhost:8000/blogs/a1305ed8-4f0a-4c59-8733-f94f74965489 HTTP/1.1
+GET  http://localhost:8000/blogs/ HTTP/1.1
 content-type: application/json
 
 
 ###
 
-DELETE  http://localhost:8000/blogs/0d34ece1-4ce7-4336-b792-1eaab3f2b9b1 HTTP/1.1
+DELETE  http://localhost:8000/blogs/10a39a88-3af6-4ed3-9532-989c67db01d4 HTTP/1.1
 content-type: application/json
 
 

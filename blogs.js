@@ -36,6 +36,7 @@ app.post("/blogs", (req, res) => {
         blogBody: blogBody,
         img: img,
     };
+    // blogs.unshift(newBlog);
     blogs.push(newBlog);
     res.json(blogs);
 });
